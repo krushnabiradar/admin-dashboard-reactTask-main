@@ -1,16 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import CreateUser from "./components/CreateUser";
 import Dashboard from "./components/Dashboard";
+import EditUser from "./components/EditUser";
+import Footer from "./components/Footer";
+import Product from "./components/Product";
 import Sidebar from "./components/Sidebar";
 import Table from "./components/Table";
 import Topbar from "./components/Topbar";
-import { Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
-import CreateUser from "./components/CreateUser";
-import Product from "./components/Product";
-import ViewUser from "./components/ViewUser";
 import ViewProduct from "./components/ViewProduct";
-import EditUser from "./components/EditUser";
-import Login from "./components/Login";
+import ViewUser from "./components/ViewUser";
 
 function App() {
   return (
